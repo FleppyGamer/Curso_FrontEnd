@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    border: none;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    border-radius: 3px;
+}
+header li a:hover,
+#sports .articles article a:hover
+{
+    color: black;
+}
+body>header{
+    background-color: gray;
+    padding: 16px;
+}
+header .container{
+    color: #ECECEC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#website-title{
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+header img{
+    height: 90px;
+    margin-right: 16px;
+}
+body>header h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+}
+header li{
+    display: inline;
+}
+header li a{
+color: #ECECEC;
+margin-left: 12px;
+font-size: 20px;
+font-weight: bold;
+}
+h2{
+    padding: 10px 12px;
+    font-size: 28px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+h3{
+    font-size: 20px;
+}
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.articles article{
+    width: 30%;
+    margin: 10px 0;
+}
+.articles article img{
+    position: relative;
+    /*height: 180px;*/
+    width: 100%;
+    margin: 0 auto;
+}
+.articles article h3{
+    padding: 12px 0;
+}
+.articles article a{
+    background-color: darkblue;
+    color: white;
+    padding: 8px 12px;
+    display: inline-block;
+    margin-top: 12px;
+    font-weight: 600;
+}
+section{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+#sports{
+    background-color: #a50000;
+    color: rgba(255, 255, 255, 0.897);
+}
+#sports h2{
+    background-color: goldenrod;
+    color: white;
+}
+#sports .articles article a{
+    background-color: goldenrod;
+}
+#economy{
+    background-color: #6EA471;
+    color: white;
+}
+#economy h2{
+    background-color: green;
+    color: white;
+}
+#economy .articles article a{
+    background-color: green;
+    color: white;
+}
+#economy .articles article a:hover{
+    color: rgb(202, 202, 202);
+}
+#return-top-button{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+#return-top-button img{
+    height: 60px;
+}
