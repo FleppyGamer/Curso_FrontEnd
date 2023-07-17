@@ -150,3 +150,6 @@ section{
 #return-top-button img{
     height: 60px;
 }
+footer .container{
+    padding: 30px 0;
+}
