@@ -51,6 +51,7 @@ h2{
     font-size: 28px;
     border: 2px solid transparent;
     border-radius: 5px;
+    margin-bottom: 16px;
 }
 h3{
     font-size: 20px;
@@ -140,7 +141,7 @@ section{
     color: white;
 }
 #entertainment{
-    background-color: black;
+    background-color: rgb(49, 49, 49);
     color: white;
 }
 #entertainment .articles a:hover{
