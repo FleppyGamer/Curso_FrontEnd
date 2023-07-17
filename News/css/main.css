@@ -121,6 +121,20 @@ section{
     right: 10px;
     bottom: 10px;
 }
+#general h2{
+    background-color: rgb(165, 165, 165);
+    color: white;
+}
+#general{
+    background-color: lightgrey;
+}
+#general .articles article a{
+    background-color: grey;
+    color: white;
+}
+#general .articles article a:hover{
+    color: black;
+}
 #return-top-button img{
     height: 60px;
 }
