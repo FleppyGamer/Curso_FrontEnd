@@ -135,6 +135,17 @@ section{
 #general .articles article a:hover{
     color: black;
 }
+#entertainment h2{
+    background-color: darkblue;
+    color: white;
+}
+#entertainment{
+    background-color: black;
+    color: white;
+}
+#entertainment .articles a:hover{
+    color: rgb(202, 202, 202);
+}
 #return-top-button img{
     height: 60px;
 }
