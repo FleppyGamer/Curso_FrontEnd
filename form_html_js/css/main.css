@@ -1,0 +1,63 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 1360px;
+    margin: 0 auto;
+}
+
+header .container{
+    padding: 24px;
+    align-items: center;
+}
+
+header .container h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+main .container{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+main h2{
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+
+.numbers{
+    display: flex;
+    width: auto;
+    margin: 16px auto;
+
+}
+
+.numbers input{
+    text-align: center;
+    font-size: 28px;
+    height: 64px;
+    width: 100px;
+    margin-right: 12px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.numbers input::placeholder{
+    font-size: 16px;
+}
+
+footer .container{
+    align-items: baseline;
+}
+
+.error{
+    border: 1px solid red;
+    color: red;
+}
