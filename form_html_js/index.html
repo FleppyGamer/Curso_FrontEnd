@@ -20,10 +20,22 @@
             <p>Preencha o campo B com um número <spam>maior</spam> que o campo A </p>
             <form>
                 <div class="numbers">
-                    <input type="number" placeholder="Campo A">
-                    <input type="number" placeholder="Campo B">
+                        <div class="number-choice-field">
+                            <input type="number" placeholder="Campo A" id="field-A">
+                            <input type="number" placeholder="Campo B" id="field-B">
+                        </div>
+                    <button type="submit">Selecionar Resposta</button>
                 </div>
             </form>
+            <div class="error-message">
+                <img src="img/erro.png" alt="errou...">
+                <p>Hmmm... Parece que o número B é maior que o A!</p>
+            </div>
+            <div class="success-message">
+                <img src="img/acerto.jpg" alt="Acertou!">
+                <p>Você acertou! Pode prosseguir.</p>
+            </div>
+            <button id="proceed">Avançar</button>
         </div>
     </main>
     <script src="js/main.js"></script>

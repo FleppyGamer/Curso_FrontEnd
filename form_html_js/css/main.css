@@ -10,7 +10,12 @@
     margin: 0 auto;
 }
 
+header{
+    background-color: #3434b8;
+}
+
 header .container{
+    color: white;
     padding: 24px;
     align-items: center;
 }
@@ -23,7 +28,7 @@ header .container h1{
 main .container{
     font-size: 20px;
     font-weight: 500;
-    margin-top: 8px;
+    margin-top: 16px;
 }
 
 main h2{
@@ -31,15 +36,18 @@ main h2{
     margin-bottom: 12px;
 }
 
-
 .numbers{
+    margin: 16px 0;
+}
+
+.number-choice-field{
     display: flex;
     width: auto;
-    margin: 16px auto;
+    margin: 8px auto;
 
 }
 
-.numbers input{
+.number-choice-field input{
     text-align: center;
     font-size: 28px;
     height: 64px;
@@ -49,15 +57,71 @@ main h2{
     border-radius: 5px;
 }
 
-.numbers input::placeholder{
+.number-choice-field input::placeholder{
     font-size: 16px;
 }
 
-footer .container{
-    align-items: baseline;
+.numbers button{
+    transition: all 0.5s ease-in-out;
+    background-color: gold;
+    color: black;
+    font-size: 18px;
+    width: 212px;
+    padding: 8px;
+    display: block;
+    border: transparent;
+    border-radius: 5px;
+}
+
+.numbers button:hover{
+    transition: all 0.5s ease-in-out;
+    background-color: green;
+    color: white;
 }
 
 .error{
     border: 1px solid red;
     color: red;
+}
+
+.error-message, .success-message{
+    background-color: red;
+    color: white;
+    align-items: center;
+    padding: 8px;
+    border: transparent;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    display: none;
+}
+
+.error-message img, .success-message img{
+    height: 50px;
+    margin-right: 8px;
+    border-radius: 5px;
+}
+
+.error-message p, .success-message p{
+    font-size: 18px;
+}
+
+.success-message{
+    background-color: green;
+}
+
+#proceed{
+    transition: all 0.5s ease-in;
+    background-color: #4949da;
+    color: white;
+    font-size: 18px;
+    padding: 8px;
+    border: transparent;
+    border-radius: 5px;
+    display: none;
+}
+
+#proceed:hover{
+    transition: all 0.5s ease-in;
+    background-color: #0a0a70;
+    color: white;
 }
