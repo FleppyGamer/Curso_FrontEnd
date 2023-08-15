@@ -1,1 +1,0 @@
-fieldB = document.getElementById

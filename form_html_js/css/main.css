@@ -108,20 +108,3 @@ main h2{
 .success-message{
     background-color: green;
 }
-
-#proceed{
-    transition: all 0.5s ease-in;
-    background-color: #4949da;
-    color: white;
-    font-size: 18px;
-    padding: 8px;
-    border: transparent;
-    border-radius: 5px;
-    display: none;
-}
-
-#proceed:hover{
-    transition: all 0.5s ease-in;
-    background-color: #0a0a70;
-    color: white;
-}
