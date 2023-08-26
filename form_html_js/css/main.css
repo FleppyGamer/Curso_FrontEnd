@@ -55,6 +55,12 @@ main h2{
     margin-right: 12px;
     border: 1px solid;
     border-radius: 5px;
+    -moz-appearance: textfield;    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    display: none;
 }
 
 .number-choice-field input::placeholder{
@@ -68,7 +74,7 @@ main h2{
     font-size: 18px;
     width: 212px;
     padding: 8px;
-    display: block;
+    display: none;
     border: transparent;
     border-radius: 5px;
 }
@@ -79,12 +85,7 @@ main h2{
     color: white;
 }
 
-.error{
-    border: 1px solid red;
-    color: red;
-}
-
-.error-message, .success-message{
+#error-message, #success-message{
     background-color: red;
     color: white;
     align-items: center;
@@ -95,16 +96,16 @@ main h2{
     display: none;
 }
 
-.error-message img, .success-message img{
+#error-message img, #success-message img{
     height: 50px;
     margin-right: 8px;
     border-radius: 5px;
 }
 
-.error-message p, .success-message p{
+#error-message p, #success-message p{
     font-size: 18px;
 }
 
-.success-message{
+#success-message{
     background-color: green;
 }

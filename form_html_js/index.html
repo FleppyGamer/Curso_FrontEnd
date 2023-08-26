@@ -16,25 +16,25 @@
     </header>
     <main>
         <div class="container">
-            <h2>2)</h2>
+            <h2>Questão 2:</h2>
             <p>Preencha o campo B com um número <spam>maior</spam> que o campo A </p>
-            <form>
+            <form id="form-numbers">
                 <div class="numbers">
-                        <div class="number-choice-field">
-                            <input type="number" placeholder="Campo A" id="field-A">
-                            <input type="number" placeholder="Campo B" id="field-B">
-                        </div>
+                    <div class="number-choice-field">
+                        <input type="number" placeholder="Campo A" id="field-A" required>
+                        <input type="number" placeholder="Campo B" id="field-B" required>
+                    </div>
+                    <div id="error-message">
+                        <img src="img/erro.png" alt="errou...">
+                        <p>Hmmm... Parece que o número A é maior que o B!</p>
+                    </div>
+                    <div id="success-message">
+                        <img src="img/acerto.jpg" alt="Acertou!">
+                        <p>Você conseguiu!</p>
+                    </div>
                     <button type="submit" id="submit-ans">Selecionar Resposta</button>
                 </div>
             </form>
-            <div class="error-message">
-                <img src="img/erro.png" alt="errou...">
-                <p>Hmmm... Parece que o número B é maior que o A!</p>
-            </div>
-            <div class="success-message">
-                <img src="img/acerto.jpg" alt="Acertou!">
-                <p>Você conseguiu! Pode submeter.</p>
-            </div>
         </div>
     </main>
     <script src="js/main.js"></script>
